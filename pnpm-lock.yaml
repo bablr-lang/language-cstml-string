@@ -20,6 +20,7 @@ specifiers:
   prettier: ^2.0.5
 
 dependencies:
+  '@babel/runtime': 7.23.2
   '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/ff3b7b07f783800e33f533c9d4b2292819f4efc2
   '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
   iter-tools-es: 7.5.3
@@ -29,7 +30,6 @@ devDependencies:
   '@babel/core': 7.22.20
   '@babel/plugin-proposal-decorators': 7.22.15_@babel+core@7.22.20
   '@babel/plugin-transform-runtime': 7.23.2_@babel+core@7.22.20
-  '@babel/runtime': 7.23.2
   '@bablr/boot': github.com/bablr-lang/boot/e3bab9d63ac466a0ead88d85c3265e4de2881ffe
   '@bablr/eslint-config-base': github.com/bablr-lang/eslint-config-base/a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e_eslint@8.49.0
   babel-plugin-macros: 3.1.0
@@ -391,7 +391,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
-    dev: true
 
   /@babel/template/7.22.15:
     resolution: {integrity: sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==}
@@ -2097,7 +2096,6 @@ packages:
 
   /regenerator-runtime/0.14.0:
     resolution: {integrity: sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==}
-    dev: true
 
   /regexp.prototype.flags/1.5.1:
     resolution: {integrity: sha512-sy6TXMN+hnP/wMy+ISxg3krXx7BAtWVO4UouuCN/ziM9UEne0euamVNafDfvC83bRNr95y0V5iijeDQFUNpvrg==}
