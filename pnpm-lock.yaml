@@ -6,7 +6,7 @@ specifiers:
   '@babel/plugin-proposal-decorators': 7.22.15
   '@babel/plugin-transform-runtime': ^7.22.15
   '@babel/runtime': ^7.23.2
-  '@bablr/boot': github:bablr-lang/boot#c131297136211c5ed8ea50601a909835369b0f72
+  '@bablr/boot': github:bablr-lang/boot#250245e69dc977630e5112cc95a43088c8372f38
   '@bablr/boot-helpers': github:bablr-lang/boot-helpers#8d35611ba68ef2ea33180cabd743966ce508794a
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e
   '@bablr/grammar': github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2
@@ -30,7 +30,7 @@ devDependencies:
   '@babel/core': 7.22.20
   '@babel/plugin-proposal-decorators': 7.22.15_@babel+core@7.22.20
   '@babel/plugin-transform-runtime': 7.23.2_@babel+core@7.22.20
-  '@bablr/boot': github.com/bablr-lang/boot/c131297136211c5ed8ea50601a909835369b0f72
+  '@bablr/boot': github.com/bablr-lang/boot/250245e69dc977630e5112cc95a43088c8372f38
   '@bablr/eslint-config-base': github.com/bablr-lang/eslint-config-base/a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e_eslint@8.49.0
   babel-plugin-macros: 3.1.0
   enhanced-resolve: 5.15.0
@@ -2443,8 +2443,8 @@ packages:
     version: 0.0.0
     engines: {node: '>=12.0.0'}
 
-  github.com/bablr-lang/boot/c131297136211c5ed8ea50601a909835369b0f72:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/c131297136211c5ed8ea50601a909835369b0f72}
+  github.com/bablr-lang/boot/250245e69dc977630e5112cc95a43088c8372f38:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/250245e69dc977630e5112cc95a43088c8372f38}
     name: '@bablr/boot'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
