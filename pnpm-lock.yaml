@@ -6,8 +6,8 @@ specifiers:
   '@babel/plugin-proposal-decorators': 7.22.15
   '@babel/plugin-transform-runtime': ^7.22.15
   '@babel/runtime': ^7.23.2
-  '@bablr/boot': github:bablr-lang/boot#b60f3fa1e99fcc0397850914d16dbe16cfd1b2db
-  '@bablr/boot-helpers': github:bablr-lang/boot-helpers#7b9a66d9b53de1243e7a6e768e9a32d11480de4d
+  '@bablr/boot': github:bablr-lang/boot#332124bfd3c6204dd886ee20821aaaac4cf2140c
+  '@bablr/boot-helpers': github:bablr-lang/boot-helpers#dfafc4a11c0e7c922285f814ea646719c9add213
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e
   '@bablr/grammar': github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2
   babel-plugin-macros: 3.1.0
@@ -21,7 +21,7 @@ specifiers:
 
 dependencies:
   '@babel/runtime': 7.23.2
-  '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/7b9a66d9b53de1243e7a6e768e9a32d11480de4d
+  '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/dfafc4a11c0e7c922285f814ea646719c9add213
   '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
   iter-tools-es: 7.5.3
 
@@ -30,7 +30,7 @@ devDependencies:
   '@babel/core': 7.22.20
   '@babel/plugin-proposal-decorators': 7.22.15_@babel+core@7.22.20
   '@babel/plugin-transform-runtime': 7.23.2_@babel+core@7.22.20
-  '@bablr/boot': github.com/bablr-lang/boot/b60f3fa1e99fcc0397850914d16dbe16cfd1b2db
+  '@bablr/boot': github.com/bablr-lang/boot/332124bfd3c6204dd886ee20821aaaac4cf2140c
   '@bablr/eslint-config-base': github.com/bablr-lang/eslint-config-base/a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e_eslint@8.49.0
   babel-plugin-macros: 3.1.0
   enhanced-resolve: 5.15.0
@@ -2442,9 +2442,17 @@ packages:
     name: '@bablr/boot-helpers'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
+    dev: true
 
-  github.com/bablr-lang/boot/b60f3fa1e99fcc0397850914d16dbe16cfd1b2db:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/b60f3fa1e99fcc0397850914d16dbe16cfd1b2db}
+  github.com/bablr-lang/boot-helpers/dfafc4a11c0e7c922285f814ea646719c9add213:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot-helpers/tar.gz/dfafc4a11c0e7c922285f814ea646719c9add213}
+    name: '@bablr/boot-helpers'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dev: false
+
+  github.com/bablr-lang/boot/332124bfd3c6204dd886ee20821aaaac4cf2140c:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/332124bfd3c6204dd886ee20821aaaac4cf2140c}
     name: '@bablr/boot'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
